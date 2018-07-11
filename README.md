@@ -85,7 +85,7 @@ A special thanks to [Chris Hafey](https://www.linkedin.com/in/chafey/), the prop
   </a>
 </span>
 
-## Places
+## Domain
 
 <span class="image">
   <a href="https://europa.eu/" title="EU" target="_blank">
