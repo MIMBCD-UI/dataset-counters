@@ -1,6 +1,6 @@
 # Dataset Counters
 
-<img src="https://github.com/mida-project/meta/blob/master/banners/dataset-samples_851x315.png?raw=true" width="100%" />
+<img src="https://github.com/mida-project/meta/blob/master/banners/dataset-samples_1000x250.png?raw=true" />
 
 The hereby repository aims to provide several scripts for calculating various aspects of our [`counters/`](https://github.com/MIMBCD-UI/dataset-samples/tree/master/counters) from an early [dataset-samples](https://github.com/MIMBCD-UI/dataset-samples) repository. The purpose of this repository is to give access to several scripts that consume, manipulate and calculate [`counters/`](https://github.com/MIMBCD-UI/dataset-samples/tree/master/counters) of [dataset-samples](https://github.com/MIMBCD-UI/dataset-samples). Therefore, our research team can use this scripts to calculate important variables to our study. The repository is part of the work done by [SIPg](http://sipg.isr.tecnico.ulisboa.pt/) an [ISR-Lisboa](http://welcome.isr.tecnico.ulisboa.pt/) and [M-ITI](https://www.m-iti.org/), two [R&D Units](http://larsys.pt/index.php/facilities/) of [LARSyS](http://larsys.pt/). The project also involves the collaborative effort of [INESC-ID](http://www.inesc-id.pt/). Both [ISR-Lisboa](http://welcome.isr.tecnico.ulisboa.pt/) and [INESC-ID](http://www.inesc-id.pt/) are [Associate Laboratories](https://tecnico.ulisboa.pt/en/research-and-innovation/rd/associate-laboratories/) of [IST](http://tecnico.ulisboa.pt/) from [ULisboa](https://www.ulisboa.pt/).
 
