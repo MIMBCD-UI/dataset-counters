@@ -14,7 +14,9 @@ A special thanks to [Chris Hafey](https://www.linkedin.com/in/chafey/), the prop
 
 ### Authors
 
-- []() [[ResearchGate]() | [GitHub]() | [Twitter]() | [LinkedIn]()]
+- [Duarte Figueirôa]() [[GitHub](https://github.com/NinjaDragon98)]
+
+- [Francisco Maria Calisto](http://www.franciscocalisto.me/) [[ResearchGate](https://www.researchgate.net/profile/Francisco_Maria_Calisto) | [GitHub](https://github.com/FMCalisto) | [Twitter](https://twitter.com/FMCalisto) | [LinkedIn](https://www.linkedin.com/in/fmcalisto/)]
 
 ## Sponsors
 
