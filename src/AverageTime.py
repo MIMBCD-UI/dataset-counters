@@ -6,6 +6,7 @@ timeCounter = 0;
 i = 0;
 filesNum = 12;
 totalTime = 0;
+doctorTime = 1 
 
 joinPath = os.path.join(os.path.dirname(__file__), '..', '..')
 pathAbsPath = os.path.abspath(joinPath)
