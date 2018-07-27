@@ -2,7 +2,7 @@
 
 """
 
-timePerClinician2.py: Counting the total time per each Clinician on
+timePerClinician5.py: Counting the total time per each Clinician on
                       a JSON files set.
 
 """
@@ -31,7 +31,8 @@ joinPath = os.path.join(basePath, '..', '..')
 pathAbsPath = os.path.abspath(joinPath)
 
 # The path for the "dataset-samples" repository and "counters" folder.
-path_to_json = os.path.join(joinPath, 'dataset-samples', 'counters', '')
+path_to_json = os.path.join(pathAbsPath, 'dataset-samples', 'counters', '')
+print(path_to_json)
 
 # Get all the JSON files inside the "counters" folder of
 # "dataset-samples" repository.
@@ -46,6 +47,6 @@ for fileName in json_files:
 		data = json.load(f)
 		key = data["rawData"]["clinician"]
 		val = data["rawData"]["time"]
-		nameAndTimePairs[key] = nameAndTimePairs.get(key,0)+val
+		nameAndTimePairs[key] = nameAndTimePairs.get(key,0) + val
 
 print(nameAndTimePairs)

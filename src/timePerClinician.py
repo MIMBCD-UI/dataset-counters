@@ -44,7 +44,7 @@ joinPath = os.path.join(basePath, '..', '..')
 pathAbsPath = os.path.abspath(joinPath)
 
 # The path for the "dataset-samples" repository and "counters" folder.
-path_to_json = os.path.join(joinPath, 'dataset-samples', 'counters', '')
+path_to_json = os.path.join(pathAbsPath, 'dataset-samples', 'counters', '')
 
 # Get all the JSON files inside the "counters" folder of
 # "dataset-samples" repository.

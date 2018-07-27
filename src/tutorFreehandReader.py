@@ -2,12 +2,11 @@
 
 """
 
-timePerClinician2.py: Counting the total time per each Clinician on
-                      a JSON files set.
+tutorFreehandReader.py: ...
 
 """
 
-__author__      = "Bruno Oliveira"
+__author__      = "Francisco Maria Calisto"
 __maintainer__  = "Francisco Maria Calisto"
 __email__       = "francisco.calisto@tecnico.ulisboa.pt"
 __license__     = "MIT"
@@ -31,7 +30,7 @@ joinPath = os.path.join(basePath, '..', '..')
 pathAbsPath = os.path.abspath(joinPath)
 
 # The path for the "dataset-samples" repository and "counters" folder.
-path_to_json = os.path.join(pathAbsPath, 'dataset-samples', 'counters', '')
+path_to_json = os.path.join(joinPath, 'dataset-samples', 'counters', '')
 
 # Get all the JSON files inside the "counters" folder of
 # "dataset-samples" repository.
@@ -42,11 +41,11 @@ json_files = [
 
 nameAndTimePairs={}
 for fileName in json_files:
-	f = io.open(path_to_json + fileName, "r")
-	data = json.load(f)
-	key = data["rawData"]["clinician"]
-	val = data["rawData"]["time"]
-	nameAndTimePairs[key] = nameAndTimePairs.get(key,0)+val
-	f.close()
+  with io.open(path_to_json + fileName, "r") as f:
+    data = json.load(f)
+    key = data["rawData"]["clinician"]
+    val = data["rawData"]["stacks"][0]["freehand"][0]["handles"]
+    print(val)
+    #nameAndTimePairs[key] = nameAndTimePairs.get(key,0) + val
 
 print(nameAndTimePairs)
