@@ -18,6 +18,8 @@ A special thanks to [Chris Hafey](https://www.linkedin.com/in/chafey/), the prop
 
 - [Francisco Maria Calisto](http://www.franciscocalisto.me/) [[ResearchGate](https://www.researchgate.net/profile/Francisco_Maria_Calisto) | [GitHub](https://github.com/FMCalisto) | [Twitter](https://twitter.com/FMCalisto) | [LinkedIn](https://www.linkedin.com/in/fmcalisto/)]
 
+- [Bruno Oliveira]() [[GitHub](https://github.com/bruno-oliveira)]
+
 ## Sponsors
 
 <span class="image">
