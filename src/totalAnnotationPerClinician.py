@@ -1,28 +1,7 @@
-#!/usr/bin/env python
-
-"""
-
-timePerClinician5.py: Counting the total time per each Clinician on
-                      a JSON files set.
-
-"""
-
-__author__      = "Bruno Oliveira"
-__maintainer__  = "Francisco Maria Calisto"
-__email__       = "francisco.calisto@tecnico.ulisboa.pt"
-__license__     = "MIT"
-__version__     = "0.0.1"
-__status__      = "Development"
-__copyright__   = "Copyright 2018, Instituto Superior Técnico (IST)"
-__credits__     = [
-  "Bruno Oliveira"
-]
-
 import os
 import io
 import json
 import itertools
-
 
 # The current folder path.
 basePath = os.path.dirname(__file__)
@@ -41,12 +20,12 @@ json_files = [
   if pos_json.endswith('.json')
 ]
 
-nameAndTimePairs={}
+nameAndAnnotationPairs={}
 for fileName in json_files:
 	with io.open(path_to_json + fileName, "r") as f:
 		data = json.load(f)
 		key = data["rawData"]["clinician"]
-		val = data["rawData"]["time"]
-		nameAndTimePairs[key] = nameAndTimePairs.get(key,0) + val
-
-print(nameAndTimePairs)
+		val = data["rawData"]["stacks"]
+		#nameAndAnnotation[key] = nameAndAnnotationPairs.get(key,0) + val
+		print(val)
+print(nameAndAnnotationPairs)
