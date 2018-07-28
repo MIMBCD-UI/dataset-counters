@@ -23,6 +23,8 @@ import io
 import json
 import itertools
 
+# Ola eu estou a fazer update ao ficheiro...
+
 # The current folder path.
 basePath = os.path.dirname(__file__)
 
@@ -32,7 +34,6 @@ pathAbsPath = os.path.abspath(joinPath)
 
 # The path for the "dataset-samples" repository and "counters" folder.
 path_to_json = os.path.join(pathAbsPath, 'dataset-samples', 'counters', '')
-print(path_to_json)
 
 # Get all the JSON files inside the "counters" folder of
 # "dataset-samples" repository.

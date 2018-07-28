@@ -2,7 +2,7 @@
 
 """
 
-timePerClinician2.py: Counting the total time per each Clinician on
+timePerClinician4.py: Counting the total time per each Clinician on
                       a JSON files set.
 
 """
