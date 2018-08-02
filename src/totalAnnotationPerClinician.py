@@ -25,7 +25,7 @@ for fileName in json_files:
 	with io.open(path_to_json + fileName, "r") as f:
 		data = json.load(f)
 		key = data["rawData"]["clinician"]
-		val = data["rawData"]["stacks"]
+		val = data["rawData"]["stacks"][0]["freehand"][0]["handles"][0]
 		#nameAndAnnotation[key] = nameAndAnnotationPairs.get(key,0) + val
-		print(val)
+		print(len(val))
 print(nameAndAnnotationPairs)
